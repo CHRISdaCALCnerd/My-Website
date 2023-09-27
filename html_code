@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Christopher Yakou</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Add your about me content here -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p> Greetings! I'm an aspiring Mechanical Engineering student with a fervent passion for cutting-edge technologies in aerospace, renewable energy, and robotics.
+           My journey in the realm of engineering has been nothing short of exhilarating, as I find myself constantly drawn to the limitless possibilities that these fields offer.
+           I'm constantly seeking opportunities to learn and grow.
+           I relish challenges, seeing them as opportunities to innovate and find elegant solutions.
+           Through hands-on experiences, collaborative projects, and a thirst for knowledge, I'm eager to contribute to the ever-evolving landscape of engineering.
+           When I'm not immersed in the world of engineering you can find me exploring the latest breakthroughs in science and technology,
+           or perhaps lost in a good book that delves into the mysteries of the universe.
+           I also enjoy staying active, whether through outdoor adventures or honing my skills in various sports.
+           I'm excited to be on this journey, and I look forward to the opportunities that lie ahead.
+           Together, let's push the boundaries of what's possible in the world of engineering and beyond! </p>
+</section>
+
+    <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3> Material Failure Test </h3>
+        <p>
+          This project entailed conducting a comprehensive stress test on a cantilever beam.
+          Using precise instrumentation and analytical techniques, the beam's structural integrity was rigorously assessed under varying loads and conditions.
+          The study encompassed the application of static and dynamic loads, with a focus on observing deformation, strain distribution, and stress concentrations.
+          Advanced software tools were employed for data acquisition and analysis. The project provided valuable insights into material behavior and structural performance,
+          with potential applications in optimizing beam designs for real-world engineering applications.
+          The results contributed to enhancing the understanding of the relationship between material properties and their relative toughness.
+        </p>
+        <img src="tensile test graph.jpg" alt="Figure Displaying Tensile Stress Versus Tensile Strain">
+        <img src="tensile layout.jpg" alt="Photo Of The Experiment Layout">
+
+    </div>
+
+    <div class="project">
+        <h3> Controller Design for a DC Motor </h3>
+        <p>
+          The goal of this project was to design a controller for a motor attached to the shaft of a flywheel.
+          The model was described by a unique transfer function with
+          moment of inertia, damping coefficient, and conversion factor from voltage to torque being held constant.
+          The input voltage and its varying forms such as step and sinusodial were utilzied to test the response of the system.
+          This experiment required deep understanding signals, systems, and controller design in order to get precise respones from the motor assembly.
+        </p>
+        <img src="flywheel overview.jpg" alt="Experiment Setup">
+        <img src="IMG_0111.jpg" alt="Response Of The System">
+
+    </div>
+
+    <div class="project">
+        <h3> Item Sorting Machine </h3>
+        <p>The goal of this project was to contribute to the advancement of item sorting technology.
+          This involved the creation of an advanced item sorting machine, leveraging a diverse skill set in various engineering diciplines.
+          Through hand sketching and CAD proficiency (AutoCAD for 2D and AutoDesk for 3D), concepts were translated into precise virtual models.
+          The use of Rapid prototyping, laser cutting, CNC machining, and 3D printing expidited the fabrication process. Furthermore, the efficiency of the machine was ensured by
+          proficiency in shop tools, machine design principles, and physics-driven analysis.
+          Effective teamwork, project management, and risk reduction strategies allowed for the project to be completed in seven weeks.
+          Additionally, strong communication skills in both oral presentations and written reports was a pivotal role in conveying complex engineering concepts.
+
+        </p>
+        <img src="CAD Drawing_00_00(1).jpg" alt="CAD Schematic">
+        <img src="ezgif.com-gif-maker(1).gif" alt="Video Of Robot">
+        <img src="IMG_0059_(1).jpg" alt="Photo Of The Final Build">
+    </div>
+
+    <div class="project">
+        <h3>Rocket Recovery Simulation</h3>
+        <p> The objective of the project was to simulate the trajectories of a rocket as it descends
+            onto a mountainous terrain. Along the trajectories, the motion of the rocket was assumably
+            influenced by propulsion, air drag on the rocket body, gravity, wind advection, and the
+            parachutes during recovery. Various launches were simulated and analyzed to examine how
+            the deployment of the parachutes affected the flight dynamics. </p>
+        <img src="rr_1.jpg" alt="Plot Displaying Predicted Landing Trajectories.">
+        <img src="rr_2.jpg" alt="Plot Of Altitude Verus Relative Mach And Acceleration">
+        <img src="rr_3.jpg" alt="Plot of Altitude And Velocity Versus Time.">
+    </div>
+
+    <div class="project">
+        <h3> Automated Teller Machine </h3>
+        <p> Developed a program provided users with a user-friendly interface for conducting basic banking transactions in a
+          secure and efficient manner. The program also gave the users to the ability to store entries,
+          withdraw cash/deposit cash, fund transfers, and PIN-based security checks. The Program also gave the users the freedom
+          to access any transactions through a "history" feature. Finally, the console allowed for transactions to be printed output
+          in the form of a receipt. The entire project was utilizing C++ programming language and required deep understanding of pointers, functions, linked-lists,
+          as well as object-based coding. </p>
+        <img src="ATM.jpg" alt="Console Overview">
+
+    </div>
+
+    <!-- Add more project divs as needed -->
+
+</section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p> Please refer to resume for contact information! </p>
+        <!-- Add your contact information here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Christopher Yakou </p>
+    </footer>
+</body>
+</html>
