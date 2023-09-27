@@ -78,6 +78,9 @@ footer {
 
 .project {
     margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .project h3 {
